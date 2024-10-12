@@ -1,0 +1,94 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #c387c7;
+    height: 75vh;
+
+} 
+
+.form-login{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 300px;
+    padding: 25px;
+    padding-bottom: 15px;
+    background-color: #f1d3f4;
+    display: flex;
+    flex-direction: column;
+}
+
+h3{
+    text-align: center;
+    font-family: "Updock", cursive;
+    margin-bottom: 10px;
+}
+
+#login-button{
+    width: 70px;
+    height: 27px;
+    background-color: #a903ae;
+    border:none;
+    border-radius: 5px;
+    color: white;
+}
+
+#login-button:hover{
+    background-color: #cc3ad1;
+    transition: background-color 0.4s;
+}
+
+#login-button:active{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombra mais suave ao clicar */
+    transform: translateY(1px);
+}
+
+.login-final{
+    display: flex;
+    justify-content: flex-start;
+}
+
+#link{
+    margin-left: 10px;
+    margin-top: 5px;
+    color: #a903ae;
+}
+
+label{
+    border: 1px solid #eec2ef;
+}
+
+.lembrar{
+    border: none;
+    margin-top: 5px;
+    font-size: smaller;
+}
+
+.lembrar input {
+    vertical-align: middle;
+}
+
+.form-interno{
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 4px;
+}
+
+.campo{
+    width: 150px;
+    height: 25px;
+    padding: 3px;
+    border: 1.5px solid #c2c0c0;
+    border-radius: 3px
+}
+
+.campo:focus{
+    outline: none;
+    border: 1.5px solid #f437f7;
+}
+label i{
+    margin-right: 7px;
+}
+
+

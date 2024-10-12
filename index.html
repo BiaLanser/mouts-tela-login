@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de login</title>
+    <link rel="stylesheet" href="css/styles.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="login">
+        <h3>Login</h3>
+        <form class="form-login">
+            <label for="email" class="input form-interno">
+                <i class="fa fa-user"></i>Email:
+                <input type="email" name="email" class="campo" placeholder="Email" required>
+            </label>
+            <label for="senha" class="input form-interno">
+                <i class="fa-solid fa-lock"></i>Senha:
+                <input type="password" name="senha" class="campo" placeholder="Senha" required>
+            </label>
+            <label for="lembrar" class="lembrar">
+                <input type="checkbox" name="lembrar">Lembrar-me
+            </label>
+            <div class="login-final form-interno">
+                <input type="submit" value="Login" id="login-button"> 
+                <a id="link" href="">Esqueceu sua senha?</a>    <!--LINK-->
+            </div>
+        </form>
+    </div>
+</body>
+</html>
