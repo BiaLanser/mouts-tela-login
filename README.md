@@ -1,4 +1,4 @@
-# tela-login-simples
+# moutsWeb-tela-login
 
 Este projeto é uma tela de login simples, desenvolvida com HTML e CSS. O objetivo é criar uma interface básica para login de usuários, com um design limpo e funcional, sem foco em responsividade ou funcionalidades adicionais de backend.
 
